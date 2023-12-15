@@ -1,0 +1,268 @@
+{
+  "userData": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "name": "Aanya Patel",
+      "email": "aanya.patel@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "name": "Advait Singh",
+      "email": "advait.singh@example.com",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "name": "Ananya Kumar",
+      "email": "ananya.kumar@example.com",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "name": "Arjun Gupta",
+      "email": "arjun.gupta@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 6,
+      "name": "Arya Joshi",
+      "email": "arya.joshi@example.com",
+      "role": "user"
+    },
+    {
+      "id": 7,
+      "name": "Ayush Mishra",
+      "email": "ayush.mishra@example.com",
+      "role": "user"
+    },
+    {
+      "id": 8,
+      "name": "Dhruv Patel",
+      "email": "dhruv.patel@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 9,
+      "name": "Ishaan Verma",
+      "email": "ishaan.verma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "name": "Ishika Gupta",
+      "email": "ishika.gupta@example.com",
+      "role": "user"
+    },
+    {
+      "id": 11,
+      "name": "Kabir Singh",
+      "email": "kabir.singh@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 12,
+      "name": "Kriti Sharma",
+      "email": "kriti.sharma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 13,
+      "name": "Manan Kumar",
+      "email": "manan.kumar@example.com",
+      "role": "user"
+    },
+    {
+      "id": 14,
+      "name": "Mira Patel",
+      "email": "mira.patel@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 15,
+      "name": "Mohit Singh",
+      "email": "mohit.singh@example.com",
+      "role": "user"
+    },
+    {
+      "id": 16,
+      "name": "Neha Verma",
+      "email": "neha.verma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 17,
+      "name": "Pranav Sharma",
+      "email": "pranav.sharma@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 18,
+      "name": "Ria Patel",
+      "email": "ria.patel@example.com",
+      "role": "user"
+    },
+    {
+      "id": 19,
+      "name": "Rishabh Kumar",
+      "email": "rishabh.kumar@example.com",
+      "role": "user"
+    },
+    {
+      "id": 20,
+      "name": "Riya Gupta",
+      "email": "riya.gupta@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 21,
+      "name": "Rohan Joshi",
+      "email": "rohan.joshi@example.com",
+      "role": "user"
+    },
+    {
+      "id": 22,
+      "name": "Sanvi Mishra",
+      "email": "sanvi.mishra@example.com",
+      "role": "user"
+    },
+    {
+      "id": 23,
+      "name": "Shiv Patel",
+      "email": "shiv.patel@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 24,
+      "name": "Siya Verma",
+      "email": "siya.verma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 25,
+      "name": "Tanish Sharma",
+      "email": "tanish.sharma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 26,
+      "name": "Tanya Singh",
+      "email": "tanya.singh@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 27,
+      "name": "Varun Gupta",
+      "email": "varun.gupta@example.com",
+      "role": "user"
+    },
+    {
+      "id": 28,
+      "name": "Ved Joshi",
+      "email": "ved.joshi@example.com",
+      "role": "user"
+    },
+    {
+      "id": 29,
+      "name": "Vivaan Patel",
+      "email": "vivaan.patel@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 30,
+      "name": "Yash Singh",
+      "email": "yash.singh@example.com",
+      "role": "user"
+    },
+    {
+      "id": 31,
+      "name": "Zara Sharma",
+      "email": "zara.sharma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 32,
+      "name": "Zoya Verma",
+      "email": "zoya.verma@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 33,
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "role": "user"
+    },
+    {
+      "id": 34,
+      "name": "Aanya Singh",
+      "email": "aanya.singh@example.com",
+      "role": "user"
+    },
+    {
+      "id": 35,
+      "name": "Advait Verma",
+      "email": "advait.verma@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 36,
+      "name": "Ananya Joshi",
+      "email": "ananya.joshi@example.com",
+      "role": "user"
+    },
+    {
+      "id": 37,
+      "name": "Arjun Kumar",
+      "email": "arjun.kumar@example.com",
+      "role": "user"
+    },
+    {
+      "id": 38,
+      "name": "Arya Gupta",
+      "email": "arya.gupta@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 39,
+      "name": "Ayush Sharma",
+      "email": "ayush.sharma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 40,
+      "name": "Dhruv Joshi",
+      "email": "dhruv.joshi@example.com",
+      "role": "user"
+    },
+    {
+      "id": 41,
+      "name": "Ishaan Patel",
+      "email": "ishaan.patel@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 42,
+      "name": "Ishika Singh",
+      "email": "ishika.singh@example.com",
+      "role": "user"
+    },
+    {
+      "id": 43,
+      "name": "Kabir Verma",
+      "email": "kabir.verma@example.com",
+      "role": "user"
+    },
+    {
+      "id": 44,
+      "name": "Kriti Kumar",
+      "email": "kriti.kumar@example.com",
+      "role": "admin"
+    }
+  ]
+}

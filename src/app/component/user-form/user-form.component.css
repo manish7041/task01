@@ -1,0 +1,48 @@
+.form-container{
+    background: #6633996c;
+    padding: 20px;
+    border-radius: 10px;
+}
+.user-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* input block */
+.input-block{
+    display: flex;
+}
+/* form */
+.form{
+    padding: 10px;
+    border-radius: 7px;
+    background: #dbd9d9;
+    width: 100%;
+
+}
+.invalid {
+    border: 1px solid red;
+}
+
+.feedback {
+    font-size: 14px;
+    margin-top: 5px;
+    color: red;
+}
+.cancel-btn{
+    background: #00000091;
+    color: #caa4f0;
+}
+.submit-btn{
+    background: #caa4f0;
+}
+@media only screen and (max-width:680px) {
+    .user-form{
+        padding: 10px 20px;
+    }
+    .form{
+        width: 300px;
+    }
+}

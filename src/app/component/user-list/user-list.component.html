@@ -1,0 +1,55 @@
+<!-- user list section start -->
+<section class="user-list">
+    <!-- start user header -->
+    <header class="user-header d-flex flex-wrap">
+        <h3>Users Management</h3>
+        <!-- search-and-addbtn-block start -->
+        <div class="search-and-add-btn-block d-flex flex-wrap">
+            <!-- search-block -->
+            <div class="search-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="search-box form-control" [(ngModel)]="searchData" placeholder="search">
+            </div>
+            <!-- add user button -->
+            <button class="addbtn btn btn-danger" routerLink="/userForm" routerLinkActive="router-link-active">Add
+                User</button>
+        </div>
+        <!-- search-and-addbtn-block end -->
+    </header>
+    <!-- end user header -->
+    <div class="user-container d-flex flex-column gap-3 align-items-center justify-content-center">
+        <div *ngFor="let data of user | filterpipe:page:searchData ; " class="user-card" style="">
+            <img src="../../../assets/image/836.jpg" class="card-img-top" [alt]="data.name">
+            <div class="card-body ms-3">
+                <p class="user-name">{{data.name}}</p>
+                <p class="user-email">{{data.email}}</p>
+                <span class="badge">{{data.role}}</span>
+            </div>
+
+            <div class="d-flex gap-3 position-absolute action-btn-block">
+                <i class="fa-solid fa-pen-to-square action-btn edit"  title="Edit" routerLink="/userList/{{data.id}}"
+                    routerLinkActive="router-link-active"></i>
+                <i class="fa-solid fa-trash-can action-btn delete" (click)="delete(data.id)" title="Delete"></i>
+            </div>
+            <div *ngIf="bool == true && data.id == deleteId" class="pop-up">
+                <div class="delete-popup" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-title" style="color:#fff;font-size:20px">Do you want to delete?
+                            <span>"{{data.name}}"</span></p>
+                        <div class="d-flex gap-3">
+                            <button class="btn btn-primary" (click)="popup('ok',data.id)">Ok</button>
+                            <button class="btn btn-danger" (click)="popup('cancel',data.id)">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex align-items-center justify-content-center mt-4">
+        <app-pagination #pagination [collectionSize]="user.length" [pageSize]="10" [firstLastButtons]="true"
+            [maxSize]="2"></app-pagination>
+    </div>
+</section>
+<!-- user list section end -->
